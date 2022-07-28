@@ -1,4 +1,4 @@
-describe('Sign In Form', () => {
+describe('Log In/Out Feature', () => {
   beforeEach(() => {
     const qaemail = 'cuevadaniel1+leadqahw@gmail.com'
     const qapassword = 'Password1'
@@ -7,18 +7,17 @@ describe('Sign In Form', () => {
     cy.signIn(qaemail, qapassword)
   })
 
-  context('Test log in feature', () => {        
+  context('Log in form', () => {        
     it('lets user sign in', () => {
       cy.contains('Welcome back')
       cy.url().should('include', '/dashboard')
     })
   })
 
-  context('Test log out feature', () => {
+  context('Logging out', () => {
     it('lets user log out', () => {
       cy.get('#main-menu')
         .click()
-        
       cy.get('[data-testid="dropdown-link-sign_out"]')
         .click()
 
