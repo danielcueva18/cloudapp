@@ -23,3 +23,9 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('visitThis', (url, options) => {
+    options = options || {}
+    
+    cy.visit(url)
+})
