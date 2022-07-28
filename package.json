@@ -1,0 +1,22 @@
+{
+  "name": "cloudapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcueva18/cloudapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielcueva18/cloudapp/issues"
+  },
+  "homepage": "https://github.com/danielcueva18/cloudapp#readme",
+  "devDependencies": {
+    "cypress": "9.7.0"
+  }
+}
