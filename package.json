@@ -18,5 +18,8 @@
   "homepage": "https://github.com/danielcueva18/cloudapp#readme",
   "devDependencies": {
     "cypress": "9.7.0"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.8"
   }
 }
