@@ -10,11 +10,13 @@ describe('Upload Avatar', () => {
 })
     
   it('lets user update avatar', () => {
-    const avatar = 'Picture.jpg'
+    const picture = 'Picture.jpg'
 
-    cy.get('#user_avatar').attachFile(avatar)
+    cy.get('#user_avatar')
+      .attachFile(picture)
     cy.get('[data-testid="onboarding-submit-about-you-form"]')
         .click()
+        
     cy.contains('Account updated successfully')
   })
 })
