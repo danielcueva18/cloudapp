@@ -4,12 +4,13 @@ describe('Sign Up Form', () => {
   })
 
   it('lets user sign up for an account', () => {
+    const email = 'cuevadaniel1+leadqahw@gmail.com'
+    const password = 'Password1'
+
     cy.get('#email')
-      .type('cuevadaniel1+leadqahw@gmail.com')
-
+      .type(email)
     cy.get('#password')
-      .type('Password1')
-
+      .type(password)
     cy.get('[data-testid="regular-signup-submit"]')
       .click()
     
