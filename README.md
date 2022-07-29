@@ -22,7 +22,7 @@ https://www.dropbox.com/s/kpb6lkdog5kuspd/SignIN-OUT.mov?dl=0
 
 Sign Up:
 https://www.dropbox.com/s/b5nqr7cpqzd28h8/SignUp-recaptchasecurityerror.mov?dl=0
-Unable to run the sign up spec due to recaptcha security on the site but I am 100% confident my test were to pass on a staging environment were recaptcha is not enabled.
+Unable to run the sign up spec due to recaptcha security on the site but I am 100% confident my test were to pass on a staging environment where recaptcha is not enabled.
 
 Avatar:
 https://www.dropbox.com/s/si9sqmkuwahf4r6/Avatar.mov?dl=0
